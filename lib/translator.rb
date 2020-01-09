@@ -12,7 +12,7 @@ def load_library(e_file)
 end
 
 def get_japanese_emoticon(e_file, e_input)
-  # code goes here
+  get_new
 end
 
 def get_english_meaning
