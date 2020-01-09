@@ -9,7 +9,7 @@ def load_library(e_file)
   get_new["get_emoticon"][emot[0]] = emot[1]
   end
   
-  get_new
+  
 end
 
 def get_japanese_emoticon
