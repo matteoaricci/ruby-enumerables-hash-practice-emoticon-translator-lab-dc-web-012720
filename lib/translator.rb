@@ -2,11 +2,10 @@ require "yaml"
 
 def load_library(file)
   emoticons = YAML.load_file(file)
-  puts emoticons
+ 
   emoticons = {"get_meaning" => {}}
-  puts emoticons
+  
   emoticons = {"get_emoticon" => {}}
-  puts emoticons
   
 end
 
