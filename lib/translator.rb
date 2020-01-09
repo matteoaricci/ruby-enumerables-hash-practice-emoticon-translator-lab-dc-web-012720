@@ -1,4 +1,5 @@
-require emoticons
+require "yaml"
+fruits = YAML.load_file('emoticons.yml')
 
 def load_library
   # code goes here
