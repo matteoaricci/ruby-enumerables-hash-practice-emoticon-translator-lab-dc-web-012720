@@ -24,4 +24,10 @@ def get_english_meaning(e_file, e_input)
   library = load_library(e_file)
   eng_mean = library["get_meaning"][e_input]
   
+  if library["get_meaning"][e_input]
+    library["get_meaning"][e_input]
+  else 
+    p "Sorry, that emoticon was not found"
+  end
+  
 end
