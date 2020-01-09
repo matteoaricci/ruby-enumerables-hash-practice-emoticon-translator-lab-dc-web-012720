@@ -4,9 +4,9 @@ def load_library(e_file)
   emoticons = YAML.load_file(e_file)
   get_new = {"get_emoticon": {}, "get_meaning": {}}
   
-  emoticons.each do |meaning, emoticon|
-  get_new["get_meaning"][emoticon[1]] = meaning
-  get_new["get_emoticon"][emoticon[0]] = emoticon[1]
+  emoticons.each do |meaning, emot|
+  get_new["get_meaning"][emot[1]] = meaning
+  get_new["get_emoticon"][emot[0]] = emot[1]
   end
   
   get_new
