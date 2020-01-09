@@ -23,6 +23,6 @@ end
 def get_english_meaning(e_file, e_input)
   j_emote = get_japanese_emoticon(e_file, e_input)
   
-  puts library
+  puts j_emote
   
 end
