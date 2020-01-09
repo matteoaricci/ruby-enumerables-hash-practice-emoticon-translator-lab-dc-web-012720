@@ -1,6 +1,6 @@
 require "yaml"
 
-def load_library(e_file)
+def load_library(file)
   emoticons = YAML.load_file(e_file)
   get_new = {"get_emoticon": {}, "get_meaning": {}}
   
