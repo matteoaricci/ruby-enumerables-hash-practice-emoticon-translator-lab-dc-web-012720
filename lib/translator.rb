@@ -20,6 +20,8 @@ def get_japanese_emoticon(e_file, e_input)
   end
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(e_file, e_input)
+  library = load_library(e_file)
+  j_emote = get_japanese_emoticon(e_file, e_input)
+  
 end
