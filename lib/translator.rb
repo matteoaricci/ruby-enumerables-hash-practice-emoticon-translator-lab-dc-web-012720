@@ -12,7 +12,8 @@ def load_library(e_file)
 end
 
 def get_japanese_emoticon(e_file, e_input)
-  load_library(e_file)
+  library = load_library(e_file)
+  if library.include? e_input
 end
 
 def get_english_meaning
