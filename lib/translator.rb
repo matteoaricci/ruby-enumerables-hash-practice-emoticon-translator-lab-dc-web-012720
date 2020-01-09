@@ -5,7 +5,7 @@ def load_library(file)
   get_new = {"get_emoticon": {}, "get_meaning": {}}
     emoticons.each do |meaning, emoticon|
     get_new["get_meaning"][emoticon[1]] = meaning
-    get_new["get_emoticon"][emoticon[0]] = emoticon
+    get_new["get_emoticon"][emoticon[0]] = emoticon[1]
   end
   get_new
 end
