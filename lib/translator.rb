@@ -5,7 +5,7 @@ def load_library(file)
  
   emoticons = {"get_meaning" => {}}
   
-  emoticons = {"get_emoticon" => {}}
+  emoticons = {"get_emoticon": {}}
   
 end
 
